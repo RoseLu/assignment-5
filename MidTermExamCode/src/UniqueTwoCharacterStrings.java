@@ -14,7 +14,7 @@ public class UniqueTwoCharacterStrings {
 		String resultString2 = obj.generateStrings("acdc", "abba");
 		System.out.println(resultString2);
 	}
-	public static String generateStrings(String s1, String s2) {
+	public static String generateStrings(String s1, String s2) {       //correct
 		
 		TreeSet<String> uniqueTwoCharString = new TreeSet<String>();
 		String element;
