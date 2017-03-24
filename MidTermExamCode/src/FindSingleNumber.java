@@ -15,7 +15,7 @@ public class FindSingleNumber {
 		int singleNumber2 = obj.singleNumber(arr1);
 		System.out.println(singleNumber2);		    
     }
-	public static int singleNumber(int[] nums){
+	public static int singleNumber(int[] nums){                            //correct
 		if(nums.length == 1){
 			return nums[0];
 		}
