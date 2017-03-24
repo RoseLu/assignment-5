@@ -16,7 +16,7 @@ public class ReversseOrderOfElements {
 		obj.reverse(list);
 
 	}
-	public static <E> void reverse(ArrayList<E> list) {
+	public static <E> void reverse(ArrayList<E> list) {         //correct
 		int listSize = list.size()-1;
 		int i = 0;
 		int j = listSize;
