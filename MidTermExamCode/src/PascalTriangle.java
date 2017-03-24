@@ -16,7 +16,7 @@ public class PascalTriangle {
 		System.out.println(obj.getRow(6));
 		System.out.println(obj.getRow(7));
 	}
-	public ArrayList<Integer> getRow(int rowIndex){	
+	public ArrayList<Integer> getRow(int rowIndex){	                 //correct
 		ArrayList<Integer> pascal0 = new ArrayList<Integer>();
 		pascal0.add(1);		
 		ArrayList<Integer> pascal1 = new ArrayList<Integer>();
