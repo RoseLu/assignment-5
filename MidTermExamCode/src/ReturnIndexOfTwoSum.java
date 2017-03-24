@@ -13,7 +13,7 @@ public class ReturnIndexOfTwoSum {
 		printArray(obj.twoSum(arr1,-4));
 	}
 
-	public int[] twoSum(int[] nums, int target){
+	public int[] twoSum(int[] nums, int target){                              //correct
 		int[] indices = new int[2];
 		int[] emptyArray = new int[0];
 		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
